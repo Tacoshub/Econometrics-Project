@@ -21,7 +21,7 @@ Key findings include:
 ## Repository Contents
 
 ### Code
-- Python scripts for:
+- R scripts for:
   - Data preprocessing and cleaning.
   - Stationarity testing and ARCH effect detection.
   - Model fitting and selection (AR, MA, ARMA, GARCH, and ARMAX-GARCH models).
