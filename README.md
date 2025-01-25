@@ -2,8 +2,6 @@
 
 This repository contains the implementation and analysis for our project on modeling and forecasting daily trading volumes of carbon emission allowances within the EU ETS (European Union Emission Trading System). The project explores various autoregressive models, including ARCH/GARCH structures, and evaluates the impact of exogenous variables like coal and oil prices on trading volume predictions.
 
----
-
 ## Project Overview
 
 The project focuses on the following:
@@ -15,8 +13,6 @@ Key findings include:
 - The presence of volatility clustering, justifying the use of GARCH models.
 - ARMA(1,1)-GARCH(1,1) selected as the optimal model based on Bayesian Information Criterion (BIC).
 - Coal price differences as the most significant exogenous variable, though results remain modest.
-
----
 
 ## Repository Contents
 
@@ -38,8 +34,6 @@ Key findings include:
 ### Documentation
 - A detailed project report explaining the methodology, results, and conclusions.
 
----
-
 ## Methodology
 
 1. **Data Preprocessing**:
@@ -58,12 +52,8 @@ Key findings include:
    - One-step-ahead predictions using ARMAX(1,1,1)-GARCH(1,1).
    - Evaluation of predicted vs. actual trading volumes.
 
----
-
 ## Authors
 - Flavio Salvatore Boccia
 - Ludovico Costa
 - Michele Facconi
 - Alessandro Pigato
-
----
